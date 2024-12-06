@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.conteudo {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.conteudo-titulo img {
+    width: 50px;
+}
+
+.titulo-principal {
+    font-size: 1.8em;
+    margin: 10px 0;
+}
+
+.titulo-secundario {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.conteudo-senha {
+    margin: 20px 0;
+}
+
+#campo-senha {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.parametro {
+    margin-top: 20px;
+}
+
+.parametro-senha {
+    margin-bottom: 15px;
+}
+
+.parametro-senha-botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.parametro-senha_botao {
+    font-size: 1.2em;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.parametro-senha_botao:hover {
+    background: #0056b3;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.barra {
+    background: #ddd;
+    height: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 5px 0;
+}
+
+.forca {
+    height: 5px;
+    transition: width 0.3s ease-in-out;
+}
+
+.fraca {
+    width: 30%;
+    background: red;
+}
+
+.parametro-senha-textos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
